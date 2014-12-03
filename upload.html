@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- twitter bootstrap CSS stylesheet - included to make things pretty, not needed or used by dicomParser -->
+    <link href="page.css" rel="stylesheet">
+
+	<script src="jquery-1.11.1.min.js"></script>
+    <script src="CircleDetect.js"></script>
+	<script src="Filter.js"></script>
+	<script src="process.js"></script>
+		
+
+</head>
+<body>
+	<table>
+		<tr><td>
+			<input type="file" id="openfile" value="Upload"/></td>
+
+			<td><input type="button" id="detect" value="Detect"/>
+		</td></tr>
+		<tr><td>
+			<canvas id="ImageCanvas" width="1500" height="1000"></canvas>	
+		</td></tr>
+	</table>
+</body>
+</html>
